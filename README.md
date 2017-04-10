@@ -36,7 +36,7 @@ Before you can run the helloTodo application, you must set up a mobile backend f
   The following procedure shows you how to create a MobileFirst Services Starter application. Using the boilerplate to create your app automatically performs the following actions:
 
 * Provisions a Node.js runtime and populates it with with a default helloTodo application that was created with StrongLoop. This application uses the LoopBack framework to expose the `/api/Items` API, which is used by both the Web UI and the helloTodo app sample from this Github repository.
-* Adds the following services to the app: Cloudant&reg; NoSQL DB, IBM Push Notifications, and Mobile Client Access.
+* Adds the following services to the app: Cloudant&reg; NoSQL DB, IBM Push Notifications, and App ID.
 
 #### Create a mobile backend in the  Bluemix dashboard
 
@@ -47,7 +47,7 @@ Before you can run the helloTodo application, you must set up a mobile backend f
 
 #### Access the StrongLoop backend app
 1. Open the **appRoute** URL that you copied from the Bluemix dashboard in your browser. You will see the web interface for the helloTodo backend.
-2. Start by following the guided experience steps that are described in the web UI. <br/>Eventually, you will try to DELETE a todo item and will discover that this action can only be complete when using the helloTodo mobile apps sample from this Github repository.The mobile backend is protected by a Mobile Client Access by default.  Mobile Client Access is a Bluemix service that provides security and monitoring functionality for mobile backend applications.
+2. Start by following the guided experience steps that are described in the web UI. <br/>Eventually, you will try to DELETE a todo item and will discover that this action can only be complete when using the helloTodo mobile apps sample from this Github repository.The mobile backend is protected by a App ID by default. App ID is a Bluemix service that provides security and monitoring functionality for mobile backend applications.
 
 > **Tip:** Click the **View API Reference** button on web UI to see the API specs.
 
